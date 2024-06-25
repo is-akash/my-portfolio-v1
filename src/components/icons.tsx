@@ -22,6 +22,7 @@ import {
     Trash,
     User,
     X,
+    Mail,
     type Icon as LucideIcon,
 } from "lucide-react";
 

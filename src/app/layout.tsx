@@ -1,7 +1,7 @@
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import { absoluteUrl, cn } from "../lib/utils";
-import { ThemeProvider } from "../components/theme-provider";
+import { ThemeProvider } from "../components/theme/theme-provider";
 import { siteConfig } from "../config/site";
 import type { Viewport } from "next";
 import { TailwindIndicator } from "../components/tailwind-indicator";
@@ -29,19 +29,8 @@ export const metadata = {
         template: `%s | ${siteConfig.name}`,
     },
     description: siteConfig.description,
-    keywords: [
-        "Next.js",
-        "React",
-        "Tailwind CSS",
-        "Server Components",
-        "Portfolio",
-    ],
-    authors: [
-        {
-            name: "skies-codes",
-            url: "https://x.com/skies_codes",
-        },
-    ],
+    keywords: siteConfig.keywords,
+    authors: siteConfig.authors,
     creator: "skies-codes",
     openGraph: {
         type: "website",
