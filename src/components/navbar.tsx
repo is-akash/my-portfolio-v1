@@ -15,10 +15,10 @@ const Navbar = () => {
                 />
                 <ul className='ml-4'>
                     <li>
-                        <h1 className='text-lg font-semibold text-foreground dark:text-foreground'>
+                        <h1 className='text-foreground text-base font-semibold'>
                             Akash Debnath
                         </h1>
-                        <p className='text-sm text-secondary-foreground dark:text-secondary-foreground'>
+                        <p className='text-sm text-secondary-foreground'>
                             Fresher
                         </p>
                     </li>

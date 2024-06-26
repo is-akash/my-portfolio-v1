@@ -22,7 +22,6 @@ export interface sociallinks {
         github: string;
         twitter: string;
         mail: string;
-        discord: string;
         linkedin: string;
     };
 }
@@ -33,4 +32,13 @@ export interface skills {
     Backend: string[];
     Database: string[];
     Tools: string[];
+}
+
+export interface ProjectType {
+    id: number;
+    title: string;
+    description: string;
+    liveUrl: string;
+    githubRepoUrl: string;
+    techstack: string[];
 }

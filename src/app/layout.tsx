@@ -1,4 +1,4 @@
-import { Inter as FontSans } from "next/font/google";
+import { Inter, Poppins as FontSans } from "next/font/google";
 import "./globals.css";
 import { absoluteUrl, cn } from "../lib/utils";
 import { ThemeProvider } from "../components/theme/theme-provider";
@@ -7,8 +7,9 @@ import type { Viewport } from "next";
 import { TailwindIndicator } from "../components/tailwind-indicator";
 
 const fontSans = FontSans({
-    subsets: ["latin"],
+    subsets: ["latin", "latin-ext"],
     variable: "--font-sans",
+    weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 interface RootLayoutProps {
