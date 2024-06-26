@@ -1,13 +1,11 @@
-import { skillsMap } from "@/config/skills";
+import { skillsMap, allSkills } from "@/config/skills";
 
 const MySkills = () => {
     return (
         <>
-            <div className='w-full flex items-start flex-col py-10'>
-                <h1 className='text-xl text-foreground dark:text-foreground'>
-                    Tech stack
-                </h1>
-                {Object.keys(skillsMap).map((key) => (
+            <div className='w-full flex items-start flex-col mt-10'>
+                <h1 className='text-lg text-foreground'>Tech stack</h1>
+                {/* {Object.keys(skillsMap).map((key) => (
                     <div key={key} className='mt-4 flex gap-2 flex-wrap'>
                         {(skillsMap as any)[key].map(
                             (value: string, index: number) => (
@@ -22,7 +20,17 @@ const MySkills = () => {
                             )
                         )}
                     </div>
-                ))}
+                ))} */}
+                <div className='flex flex-wrap mt-2 gap-2'>
+                    {allSkills.map((skill: string, index: number) => (
+                        <div
+                            key={index}
+                            className='text-accent-foreground text-sm px-2 py-1 rounded-md cursor-pointer border-border border shadow hover:shadow-md dark:hover:shadow-blue-500 dark:hover:shadow-sm bg-card'
+                        >
+                            <span>{skill}</span>
+                        </div>
+                    ))}
+                </div>
             </div>
         </>
     );

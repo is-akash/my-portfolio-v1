@@ -4,8 +4,8 @@ const AboutMe = () => {
     return (
         <>
             <div className='w-full mt-10 flex flex-col'>
-                <h1 className='text-xl'>About Me</h1>
-                <p className='mt-2 text-secondary-foreground'>
+                <h1 className='text-lg'>About Me</h1>
+                <p className='mt-2 text-secondary-foreground text-base'>
                     In 2022, I discovered my passion for coding after seeing my
                     friend code. ✨ I love using my creativity to build things
                     for the web. Being self-taught was challenging, but I'm

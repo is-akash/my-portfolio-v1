@@ -10,7 +10,7 @@ const MaxWidthComponent = ({ children, className }: MaxWidthComponent) => {
         <>
             <section
                 className={cn(
-                    "mx-auto max-w-screen-md bg-background px-4",
+                    "mx-auto max-w-screen-lg bg-background px-5",
                     className
                 )}
             >
