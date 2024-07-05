@@ -24,6 +24,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata = {
+    metadataBase: new URL(absoluteUrl("/")),
     title: {
         default: siteConfig.name,
         template: `%s | ${siteConfig.name}`,
@@ -44,7 +45,7 @@ export const metadata = {
         card: "summary_large_image",
         title: siteConfig.name,
         description: siteConfig.description,
-        images: [`${siteConfig.url}/og.jpg`],
+        images: [`${siteConfig.url}/og.png`],
         creator: "@skies_codes",
     },
     icons: {
