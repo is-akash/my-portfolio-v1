@@ -9,5 +9,3 @@ export const socialLinks: sociallinks = {
         linkedin: "https://www.linkedin.com/in/akash-debnath-5a8648249/",
     },
 };
-
-// discord: "https://discord.gg/wdyEGZ64wz",
