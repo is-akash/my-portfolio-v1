@@ -37,8 +37,9 @@ export interface skills {
 export interface ProjectType {
     id: number;
     title: string;
+    type: string;
     description: string;
-    liveUrl: string;
+    liveUrl?: string;
     githubRepoUrl: string;
     techstack: string[];
 }

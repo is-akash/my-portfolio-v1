@@ -3,20 +3,52 @@ import { ProjectType } from "../../types";
 export const projects: ProjectType[] = [
     {
         id: 0,
-        title: "Excalidraw Clone",
+        title: "Clique",
+        type: "FullStack",
         description:
-            "A simple clone of Excalidraw built with React and TypeScript. I made this side project for learning purposes. The app isn't responsive, but I prioritized functionalities over responsiveness.",
-        liveUrl: "https://project-one.com",
-        githubRepoUrl: "https://github.com/user/project-one",
-        techstack: ["React", "TypeScript", "CSS", "Cypress"],
+            "Clique is a dynamic social media application designed to foster connections and engagement. This versatile platform allows users to share updates, photos. making it easy to stay connected with friends.",
+        liveUrl: "https://clique-five.vercel.app/",
+        githubRepoUrl: "https://github.com/skies-codes/Clique",
+        techstack: [
+            "React.js",
+            "TailwindCSS",
+            "TanStack Query",
+            "Zod",
+            "Appwrite",
+        ],
     },
     {
         id: 1,
-        title: "Type Rush",
+        title: "GitDiscovery",
+        type: "Frontend",
         description:
-            "A typing game built with React and TypeScript. It is a website where you can practice typing to get faster and more accurate.",
-        liveUrl: "https://project-two.com",
-        githubRepoUrl: "https://github.com/user/project-two",
-        techstack: ["Node.js", "Express", "MongoDB"],
+            "A simple version of github using github API to fetch user details and show them on the frontend.",
+        liveUrl: "https://skies-codes.github.io/GitDiscovery/",
+        githubRepoUrl: "https://github.com/skies-codes/GitDiscovery",
+        techstack: ["HTML", "CSS", "JavaScript", "Github API"],
+    },
+    {
+        id: 2,
+        title: "NoteSpace",
+        type: "Desktop Application",
+        description:
+            "A minimal Note taking app with out-of-the-box markdown support using Electron, React, Typescript, TailwindCSS, Jotai and MDX Editor. I built this project for learning purposes.",
+        githubRepoUrl: "https://github.com/skies-codes/NoteSpace",
+        techstack: [
+            "Electron.js",
+            "React.js",
+            "TypeScript",
+            "TailwindCSS",
+            "Jotai",
+            "MDX Editor",
+        ],
+    },
+    {
+        id: 3,
+        title: "My Portfolio",
+        type: "Frontend",
+        description: "A first portfolio using next.js, tailwind css.",
+        githubRepoUrl: "https://github.com/skies-codes/my-portfolio-v1",
+        techstack: ["Next.js", "TypeScript", "TailwindCSS"],
     },
 ];
