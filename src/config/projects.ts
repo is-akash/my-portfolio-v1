@@ -48,6 +48,7 @@ export const projects: ProjectType[] = [
         title: "My Portfolio",
         type: "Frontend",
         description: "A first portfolio using next.js, tailwind css.",
+        liveUrl: "https://my-portfolio-v1-pink.vercel.app/",
         githubRepoUrl: "https://github.com/skies-codes/my-portfolio-v1",
         techstack: ["Next.js", "TypeScript", "TailwindCSS"],
     },
