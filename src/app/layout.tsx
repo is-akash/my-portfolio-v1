@@ -24,7 +24,6 @@ export const viewport: Viewport = {
 };
 
 export const metadata = {
-    metadataBase: new URL(absoluteUrl("")),
     title: {
         default: siteConfig.name,
         template: `%s | ${siteConfig.name}`,
